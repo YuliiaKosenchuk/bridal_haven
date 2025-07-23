@@ -1,9 +1,14 @@
+html,
 body {
-  background-color: #58310c;
-  color: #209c6d;
-  text-align: center;
+  height: 100%;
 }
 
-.test {
-  margin: 0;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1;
 }
