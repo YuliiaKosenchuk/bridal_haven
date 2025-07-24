@@ -1,0 +1,26 @@
+@use 'vars';
+
+html,
+body {
+  @extend %opensans-400;
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.3;
+  color: vars.$color-accent;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;   //->прицепити футер до низу сторінки на багатостор.
+}
+
+.main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}

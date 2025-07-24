@@ -11,12 +11,16 @@
       <header class="header">
         <div class="container">
           <div class="header__inner">
-            <a class="logo" href="#">
-              <img src="images/logo.svg" alt="logo">
-            </a>
+            <div class="header__logo">
+              <a class="logo" href="#">
+                <img src="images/logo.svg" alt="logo" />
+              </a>
+            </div>
             <ul class="header__lang">
               <li class="header__lang-item">
-                <a href="#" class="header__lang-link header__lang-link--active">EN</a>/
+                <a href="#" class="header__lang-link header__lang--active"
+                  >EN</a
+                >/
               </li>
               <li class="header__lang-item">
                 <a href="#" class="header__lang-link">UA</a>
@@ -43,16 +47,30 @@
             </nav>
             <ul class="header__actions">
               <li class="header__actions-item">
-                <a href="#" class="header__actions-link"></a>
+                <a href="#" class="header__actions-link">
+                  <svg width="24" height="24">
+                    <use xlink:href="images/sprite.svg#user"></use>
+                  </svg>
+                </a>
               </li>
               <li class="header__actions-item">
-                <a href="#" class="header__actions-link"></a>
+                <a href="#" class="header__actions-link">
+                  <svg width="24" height="22">
+                    <use xlink:href="images/sprite.svg#wishlist"></use>
+                  </svg>
+                </a>
               </li>
               <li class="header__actions-item">
-                <a href="#" class="header__actions-link"></a>
+                <a href="#" class="header__actions-link">
+                  <svg width="24" height="24">
+                    <use xlink:href="images/sprite.svg#shopping-bag"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </header>
-
+    </div>
+  </body>
+</html>

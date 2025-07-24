@@ -12,11 +12,11 @@ const avif = require("gulp-avif");
 const newer = require("gulp-newer");
 const ttf2woff2 = require("gulp-ttf2woff2");
 const include = require("gulp-include");
-const svgmin = require("gulp-svgmin");
+const svgstore = require("gulp-svgstore");
 
 function sprites() {
   return src("app/images/sprite/*.svg")
-    .pipe(svgmin())
+    .pipe(svgstore())
     .pipe(dest("app/images"));
 }
 
@@ -32,7 +32,9 @@ function pages() {
 }
 
 function fonts() {
-  return src("app/fonts/*.ttf2").pipe(ttf2woff2()).pipe(dest("app/fonts"));
+  return src("app/fonts/*.ttf")
+    .pipe(ttf2woff2())
+    .pipe(dest("app/fonts"));
 }
 
 function images() {
@@ -83,7 +85,7 @@ function watching() {
       baseDir: "app/",
     },
   });
-  watch("app/scss/**/*.scss", styles);
+  watch("app/scss/*.scss", styles);
   watch(["app/js/main.js"], scripts);
   watch(["app/images/src"], images);
   watch(["app/images/sprite"], sprites);
