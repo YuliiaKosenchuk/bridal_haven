@@ -41,8 +41,13 @@ a {
 input,
 button,
 textarea,
+address,
 select {
   font: inherit;
+}
+
+input:focus {
+  outline: none;
 }
 
 button {
@@ -58,7 +63,6 @@ svg {
 }
 
 @media (favors-reduced-motion: reduce) {
-
   *,
   * ::before,
   * ::after {
