@@ -153,6 +153,255 @@
   }
 }
 
+.join-us {
+  background-color: vars.$bg-primary;
+
+  &__inner {
+    display: flex;
+    gap: 40px;
+    padding: 0 40px;
+  }
+
+  &__img {
+    min-width: 540px;
+  }
+
+  &__box {
+    padding: 40px 0;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    @extend %lora-400;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    @extend %lora-400;
+    font-size: 30px;
+    color: vars.$color-primary;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+
+    padding-bottom: 10px;
+    @extend %opensans-400;
+    color: vars.$color-text-muted;
+
+    border: none;
+    border-bottom: 1px solid vars.$color-text-muted;
+    background-color: transparent;
+  }
+
+  &__input + .join-us__input {
+    margin-top: 10px;
+  }
+
+  &__btn {
+    position: relative;
+    z-index: 6;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: vars.$color-accent;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__form-caption {
+    font-size: 11px;
+  }
+}
+
+.designer {
+  padding: 150px 0 210px;
+  &__inner {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img-decor {
+    position: absolute;
+    top: -380px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 5;
+  }
+
+  &__content {
+    max-width: 400px;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    @extend %lora-400;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: vars.$color-text-muted;
+  }
+
+  &__box {
+    position: relative;
+    text-align: center;
+  }
+
+  &__img {
+    margin-bottom: 40px;
+  }
+
+  &__caption {
+    position: absolute;
+    top: 180px;
+    left: -160px;
+    width: 300px;
+    padding: 20px 18px;
+    background-color: #fff;
+    @extend %lora-400;
+    font-size: 20px;
+    border: 3px solid vars.$bg-primary;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 10px 90px;
+    font-size: 16px;
+    color: vars.$color-text-muted;
+    border: 1px solid vars.$color-text-muted;
+  }
+}
+
+.our-advantages {
+  background-color: vars.$bg-primary;
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    padding: 64px 0 34px;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+  }
+
+  &__decor {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__inner {
+    margin-left: auto;
+    padding-right: 128px;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    @extend %lora-400;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    column-count: 2;
+    column-gap: 80px;
+  }
+
+  &__item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 50px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 22px;
+      left: 0;
+      background-image: url('../images/our-advantages-item-decor.svg');
+    }
+  }
+}
+
+.our-blog {
+  padding: 150px 0 0;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 280px 330px;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 0 40px 30px 40px;
+    background-image: url('../images/our-blog-decor.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    @extend %lora-400;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    max-width: 400px;
+    margin-bottom: 50px;
+    color: vars.$color-text-muted;
+    font-size: 16px;
+  }
+  &__link {
+    display: inline-block;
+    padding: 10px 90px;
+    font-size: 16px;
+    @extend %lora-400;
+    color: vars.$color-text-muted;
+    border: 1px solid vars.$color-text-muted;
+  }
+
+  &__box-right {
+    grid-row: span 2;
+    align-self: center;
+    margin-top: 35px;
+  }
+
+  &__box-img {
+    margin-bottom: 20px;
+  }
+
+  &__box-link {
+    display: inline-block;
+    margin-bottom: 5px;
+    @extend %lora-400;
+    color: vars.$color-text-muted;
+  }
+
+  &__box-date {
+    @extend %opensans-300;
+    font-size: 16px;
+  }
+
+  &__box-bottom {
+    grid-column: span 2;
+    margin-left: auto;
+  }
+}
+
 .footer {
   font-size: 16px;
   color: vars.$color-text-muted;
