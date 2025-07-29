@@ -2,6 +2,7 @@
 @use "vars";
 @use "fonts";
 @use "global";
+@use "appointment";
 
 .promo {
   background-color: vars.$bg-primary;
@@ -333,7 +334,7 @@
       width: 30px;
       height: 22px;
       left: 0;
-      background-image: url('../images/our-advantages-item-decor.svg');
+      background-image: url("../images/our-advantages-item-decor.svg");
     }
   }
 }
@@ -347,7 +348,7 @@
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     padding: 0 40px 30px 40px;
-    background-image: url('../images/our-blog-decor.svg');
+    background-image: url("../images/our-blog-decor.svg");
     background-repeat: no-repeat;
     background-position: left bottom;
   }
@@ -387,7 +388,7 @@
   &__box-link {
     display: inline-block;
     margin-bottom: 5px;
-    @extend %lora-400;
+    @extend %opensans-400;
     color: vars.$color-text-muted;
   }
 

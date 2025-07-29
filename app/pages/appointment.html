@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Bridal Haven</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- =include promo.html -->
+      <!-- =include header.html -->
+      <main class="main">
+        <section class="appointment">
+          <div class="container">
+            <h2 class="appointment__title">BOOK AN APPOINTMENT</h2>
+            <div class="appointment__box">
+              <form class="appointment__box-form" action="#">
+                <p class="appointment__box-title">CONTACT INFORMATHION</p>
+                <p class="appointment__box-text">
+                  Fill in your contact details
+                </p>
+                <input
+                  class="appointment__input"
+                  type="text"
+                  placeholder="First name"
+                />
+                <input
+                  class="appointment__input"
+                  type="text"
+                  placeholder="Last name"
+                />
+                <input
+                  class="appointment__input"
+                  type="email"
+                  placeholder="Email"
+                />
+                <input
+                  class="appointment__input"
+                  type="text"
+                  placeholder="Mobile"
+                />
+                <button class="appointment__btn" type="submit">SEND</button>
+              </form>
+              <picture>
+                <source
+                  srcset="images/appointment-img.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="images/appointment-img.webp"
+                  type="image/webp"
+                />
+                <img
+                  class="appointment__img"
+                  src="images/appointment-img.jpg"
+                  alt="women"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- =include footer.html -->
+    </div>
+  </body>
+</html>
