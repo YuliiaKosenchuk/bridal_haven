@@ -3,6 +3,7 @@
 @use "fonts";
 @use "global";
 @use "appointment";
+@use "collections";
 
 .promo {
   background-color: vars.$bg-primary;
@@ -129,6 +130,13 @@
 
   &__img {
     padding-top: 75px;
+    width: 100%;
+
+    img {
+      max-width: 347px;
+      height: 564px;
+      object-fit: cover;
+    }
   }
 
   &__box {
@@ -493,6 +501,69 @@
       content: "|";
       position: absolute;
       left: -21px;
+    }
+  }
+}
+
+.breadcrumbs {
+  padding: 30px 0 80px;
+
+  &__list {
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    color: vars.$color-text-muted;
+  }
+  &__item {
+    position: relative;
+  }
+
+  &__item + .breadcrumbs__item::before {
+    content: "/";
+    position: absolute;
+    left: -10px;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 90px;
+
+  &__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 43px;
+    height: 43px;
+
+    &--disabled {
+      display: none;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 16px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 43px;
+    height: 43px;
+    border-radius: 8px;
+
+    &--active {
+      color: #fff;
+      background-color: vars.$color-text-muted;
     }
   }
 }
