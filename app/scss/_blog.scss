@@ -3,11 +3,6 @@
 @use "fonts";
 @use "global";
 
-.container-big {
-  max-width: 1520px;
-  margin: 0 auto;
-}
-
 .blog-main {
   &__inner {
     display: flex;
@@ -91,10 +86,16 @@
     gap: 50px 20px;
   }
 
-  &__list-item {
-  }
-
   &__list-img-link {
+
+    picture {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
 
   &__list-content {
