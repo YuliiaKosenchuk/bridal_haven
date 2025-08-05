@@ -1,0 +1,83 @@
+@use "reset";
+@use "vars";
+@use "fonts";
+@use "global";
+
+.page-404 {
+  padding-top: 40px;
+
+  &__container {
+    max-width: 1560px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    display: flex;
+  }
+
+  &__img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__content {
+    max-width: 731px;
+    margin: 205px 14px 0 35px;
+    @extend %lora-400;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+    font-size: 160px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    font-size: 48px;
+
+    span {
+      display: inline-block;
+      max-width: 621px;
+      text-transform: uppercase;
+    }
+  }
+  &__link-icon {
+    max-width: 90px;
+    max-height: 90px;
+  }
+}
+
+.moving {
+  overflow: hidden;
+  
+  &__text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    opacity: 0.2;
+
+    @extend %lora-400;
+    font-size: 160px;
+    text-transform: uppercase;
+
+    animation-name: moving;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
