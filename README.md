@@ -4,3 +4,4 @@
 
 [Demo__collections](https://YuliiaKosenchuk.github.io/bridal_haven/collections.html)
 
+[Demo__product](https://YuliiaKosenchuk.github.io/bridal_haven/product.html)
