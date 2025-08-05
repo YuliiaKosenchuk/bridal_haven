@@ -5,6 +5,7 @@
 @use "appointment";
 @use "collections";
 @use "product";
+@use "page-404";
 
 .promo {
   background-color: vars.$bg-primary;
