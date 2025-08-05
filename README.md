@@ -1,9 +1,11 @@
-[Demo__homepage](https://YuliiaKosenchuk.github.io/bridal_haven/)
+[Homepage](https://YuliiaKosenchuk.github.io/bridal_haven/)
 
-[Demo__appointment](https://YuliiaKosenchuk.github.io/bridal_haven/appointment.html)
+[Appointment](https://YuliiaKosenchuk.github.io/bridal_haven/appointment.html)
 
-[Demo__collections](https://YuliiaKosenchuk.github.io/bridal_haven/collections.html)
+[Collections](https://YuliiaKosenchuk.github.io/bridal_haven/collections.html)
 
-[Demo__product](https://YuliiaKosenchuk.github.io/bridal_haven/product.html)
+[Product](https://YuliiaKosenchuk.github.io/bridal_haven/product.html)
 
-[Demo__product](https://YuliiaKosenchuk.github.io/bridal_haven/page-404.html)
+[Page-404](https://YuliiaKosenchuk.github.io/bridal_haven/page-404.html)
+
+[Blog](https://YuliiaKosenchuk.github.io/bridal_haven/blog.html)
