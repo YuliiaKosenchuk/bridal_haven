@@ -11,6 +11,15 @@
 }
 
 .collections {
+  position: relative;
+
+  &__decor {
+    position: absolute;
+    right: 320px;
+    top: -190px;
+    z-index: 2;
+  }
+  
   &__title {
     margin-bottom: 50px;
     text-align: center;
