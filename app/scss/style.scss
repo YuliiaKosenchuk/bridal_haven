@@ -6,6 +6,8 @@
 @use "collections";
 @use "product";
 @use "page-404";
+@use "blog";
+
 
 .promo {
   background-color: vars.$bg-primary;
