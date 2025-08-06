@@ -32,9 +32,7 @@ function pages() {
 }
 
 function fonts() {
-  return src("app/fonts/*.ttf")
-    .pipe(ttf2woff2())
-    .pipe(dest("app/fonts"));
+  return src("app/fonts/*.ttf").pipe(ttf2woff2()).pipe(dest("app/fonts"));
 }
 
 function images() {
@@ -72,7 +70,11 @@ function styles() {
     .pipe(browserSync.stream());
 }
 function scripts() {
-  return src(["node_modules/swiper/swiper-bundle.js", "app/js/main.js"])
+  return src([
+    "node_modules/swiper/swiper-bundle.js",
+    "node_modules/nouislider/dist/nouislider.js",
+    "app/js/main.js",
+  ])
     .pipe(concat("main.min.js"))
     .pipe(uglify())
     .pipe(dest("app/js"))
