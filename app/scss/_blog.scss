@@ -79,15 +79,38 @@
     gap: 20px;
     margin-left: 100px;
   }
- 
+
+  &__nav-btn {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+  }
+
+  &__nav-btn--active {
+    opacity: 1;
+    filter: none;
+  }
+
   &__list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px 20px;
+    &--grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px 20px;
+    }
+
+    &--line {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+
+      .blog__list-item {
+        display: flex;
+        gap: 20px;
+      }
+    }
   }
 
   &__list-img-link {
-
     picture {
       width: 100%;
     }

@@ -2,12 +2,16 @@
 @use "vars";
 @use "fonts";
 @use "global";
+@use "../../node_modules/nouislider/dist/nouislider.css";
+@use "../../node_modules/swiper/swiper-bundle.css";
 @use "appointment";
 @use "collections";
 @use "product";
 @use "page-404";
 @use "blog";
 @use "blog-one";
+@use "catalog";
+
 
 
 
