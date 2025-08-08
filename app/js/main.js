@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       catalogContentItems.classList.remove("catalog__content-items--grid");
     });
   }
-  //поки залишу для себе без додавання спільної логіки + є активінсть кнопки
+  //поки залишу для себе без додавання спільної логіки + є активність кнопки
   const blogViewGrid = document.querySelector(".blog__nav-btn--grid");
   const blogViewLine = document.querySelector(".blog__nav-btn--line");
   const blogList = document.querySelector(".blog__list");
