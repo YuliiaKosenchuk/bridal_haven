@@ -10,4 +10,4 @@
 - 💳 [Checkout](https://YuliiaKosenchuk.github.io/bridal_haven/checkout.html)
 - 📝 [Blog](https://YuliiaKosenchuk.github.io/bridal_haven/blog.html)
 - 🧾 [Blog Post](https://YuliiaKosenchuk.github.io/bridal_haven/blog-one.html)
-- ❌ [Page-404](https://YuliiaKosenchuk.github.io/bridal_haven/page-404.html)
+- ❌ [Page 404](https://YuliiaKosenchuk.github.io/bridal_haven/page-404.html)
