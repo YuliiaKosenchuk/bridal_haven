@@ -85,6 +85,7 @@
       opacity: 0.4;
       right: 32px;
       top: 65px;
+      pointer-events: none;
     }
   }
 
@@ -343,8 +344,8 @@
     width: 100%;
     padding: 30px;
     border: 1px solid vars.$color-accent;
-      @extend %inter-400;
-      font-size: 20px;
+    @extend %inter-400;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
   }

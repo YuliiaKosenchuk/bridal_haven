@@ -8,6 +8,7 @@
 - 🗂️ [Catalog](https://YuliiaKosenchuk.github.io/bridal_haven/catalog.html)
 - 🛍️ [Product](https://YuliiaKosenchuk.github.io/bridal_haven/product.html)
 - 💳 [Checkout](https://YuliiaKosenchuk.github.io/bridal_haven/checkout.html)
+- ⭐ [Reviews](https://YuliiaKosenchuk.github.io/bridal_haven/reviews.html)
 - 📝 [Blog](https://YuliiaKosenchuk.github.io/bridal_haven/blog.html)
 - 🧾 [Blog Post](https://YuliiaKosenchuk.github.io/bridal_haven/blog-one.html)
 - ❌ [Page 404](https://YuliiaKosenchuk.github.io/bridal_haven/page-404.html)
