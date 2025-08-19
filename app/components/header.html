@@ -1,20 +1,25 @@
 <header class="header">
   <div class="container">
     <div class="header__inner">
+      <button class="header__burger-btn" type="button">
+        <svg width="30" height="19">
+          <use xlink:href="images/sprite.svg#burger-menu"></use>
+        </svg>
+      </button>
       <div class="header__logo">
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
           <img src="images/logo.svg" alt="logo" />
         </a>
       </div>
-      <ul class="header__lang">
-        <li class="header__lang-item">
-          <a href="#" class="header__lang-link header__lang--active">EN</a>/
-        </li>
-        <li class="header__lang-item">
-          <a href="#" class="header__lang-link">UA</a>
-        </li>
-      </ul>
       <nav class="menu">
+        <ul class="menu__lang" aria-label="Language selector">
+          <li class="menu__lang-item">
+            <a href="#" class="menu__lang-link menu__lang--active">EN</a>/
+          </li>
+          <li class="menu__lang-item">
+            <a href="#" class="menu__lang-link">UA</a>
+          </li>
+        </ul>
         <ul class="menu__list">
           <li class="menu__item">
             <a href="#" class="menu__link">CATALOG</a>

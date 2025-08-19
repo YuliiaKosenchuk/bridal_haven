@@ -1,3 +1,12 @@
+const burgerBtn = document.querySelector(".header__burger-btn");
+const menu = document.querySelector(".menu");
+
+console.log(burgerBtn, menu); 
+
+burgerBtn.addEventListener("click", function () {
+  menu.classList.toggle("menu--active");
+});
+
 // не встигав підгружатися ДОМ-елемент і ламався слухач, тому:
 document.addEventListener("DOMContentLoaded", () => {
   const catalogViewGrid = document.querySelector(".view-mode__btn--grid");
